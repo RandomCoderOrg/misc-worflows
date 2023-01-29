@@ -9,6 +9,7 @@ on:
       - "**.yml"
 jobs:
   github-metrics:
+    name: "@ (ubuntu-on-android)"
     runs-on: ubuntu-latest
     steps:
     - name: Contributors Stargazers
